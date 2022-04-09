@@ -62,5 +62,48 @@ Bilgi tabanlı yaklaşım.Mesela Fred isimli biri makineye dönüşecek mi? Sezg
 
 > ## 01-04-2022
 
+- CNN'e ihtiyç var çünkü YSA'da resim kullanmak zor oluyordu.
+
+- 32x32x3 buradaki 3'ün anlamı RGB, eğer ki 1 olsaydı siyah beyaz demekti.Derinlikte demek.
+
+- CNN'de ilk kısımda orjinal yani giriş katmanında kullanılıyor daha sonra ki kısımlarda aktivasyon haritasında kullanılıyor(orjinal resmi CNN ilk kısımda görüyor,sonraki katmanlarda aktivasyon haritalarındaki resmi kullanılıyor.
+
+- Amacımız uygun filtreleri bulmak,ilk başta random daha sonra eğitim aşamasında değişiyor.
+
+- CNN bize hız kazandırıyor,ortak filtreler kullanıyoruz,birbirine ait bağımlılıklar azaltılır.
+
+- İlk aşamada ortak özellikler var.
+
+- Transfer öğrenmeye olanak sağlayan ilk aşamadır.(Sabit şeyler, kol vs)
+
+- Neden padding uyguluyoruz? Bir katmandan bir katmana küçülüyor.
+
+- Kenardaki pixeller ortaya göre daha az bilgi alınıyor/kullanılıyor.
+
+- Padding hem sağa hem de sola geliyor. 
+
+- Pool uyguluyoruz küçülüyor diğeri büyüyor işlem hızı artıyor en önemli işlemi yapıyoruz.
+
+- 2P : Hem sağa hem de sola ekleniliyor
+
+- Hep tek sayılı mı olmalı filtreler ?
+
+Çift olarak olabilir ama tek sayı daha kolay oluyor. Genelde çift filtre kullanılmıyor. Genelde kare 32x32,genelde kare olmaz günlük hayatta elimizde, CNN kaçlık istiyorsa ona çekmem gerekiyor. Makineler resmi bütün olarak görmüyor pixel pixel alıyor.
+
+- CNN'de sadece ilk katmanda orjinal resim kullanılır daha sonra aktivasyon haritaları üzerinde işlem yapıp ilerliyoruz.
+
+- Pooling Layer: Resmin büyüklüğünü azaltmaya yarıyor.
+
+- Max Pooling: Aldığımız alanda en yüksek değeri alıyor.
+
+- Avarage Pooling:Ortalamasını alıyor.
+
+- Fully Connected Layer(FC): Tek boyutlu diziyi çeviriyoruz.
+
+- RNN: Metin  CNN:Kan,MR görüntüsü vb için
+
+
+
+
 
 > ## 08-04-2022
