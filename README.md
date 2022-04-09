@@ -103,7 +103,25 @@ Bilgi tabanlı yaklaşım.Mesela Fred isimli biri makineye dönüşecek mi? Sezg
 - RNN: Metin  CNN:Kan,MR görüntüsü vb için
 
 
-
-
-
 > ## 08-04-2022
+
+- binary class. : kedi=0 , köpek=1 
+
+- Conv3D:videolarla işlem Conv2D:resimlerle işlemi gerçekleştiriyor
+
+- Dense : Tek boyutlu vektöre çevirmemize yardımcı oluyor
+
+- Neden padding kullanıyoruz,avantajı ne?
+Bir layerdan diğer layera geç,nce değişmesin diye
+
+- input shape:girdi büyüklüklerini belirtiyor.İnput shape sadece 1. katmanda bilgilerini giriyoruz. Daha sonra da keras bizim için yapıyor.
+
+- Ara katmanlarda genel de ReLu kullanılıyor.
+
+- Flattenle düzleştireceğiz.Tek boyuta geçirecek,tek boyutlu bir yer olacak.
+
+- İkinci CNN katmanına eklerken input shape gerek yok.
+
+- Elimdeki veri setini arttırma yöntemi için ImageDataGenerator
+
+- Rescale: özellik ölçeklendirme
