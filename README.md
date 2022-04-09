@@ -48,7 +48,7 @@ Bilgi tabanlı yaklaşım.Mesela Fred isimli biri makineye dönüşecek mi? Sezg
 *Hiperparametre -> Araştırmacının kendisi tarafından geliştirilen değer,araştırmacı değiştirebiliyor.
 
 
-> ## 18-03-2022
+> ## 24-03-2022
 
 *csv->birbirinden virgül ile ayrılmış veriler.
 
@@ -59,3 +59,8 @@ Bilgi tabanlı yaklaşım.Mesela Fred isimli biri makineye dönüşecek mi? Sezg
 *sklearn -> bilimsel hesaplar için
 
 *özellik ölçeklendirme feature scaling
+
+> ## 01-04-2022
+
+
+> ## 08-04-2022
