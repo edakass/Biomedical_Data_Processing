@@ -125,3 +125,17 @@ Bir layerdan diğer layera geç,nce değişmesin diye
 - Elimdeki veri setini arttırma yöntemi için ImageDataGenerator
 
 - Rescale: özellik ölçeklendirme
+
+
+![image](https://user-images.githubusercontent.com/61595808/163446800-5b3370ba-0842-4b2b-802f-9afcfd509136.png)
+
+
+
+![image](https://user-images.githubusercontent.com/61595808/163425632-dd53e0d0-daa4-4296-81e7-712b0b6a60f1.png)
+
+
+
+![image](https://user-images.githubusercontent.com/61595808/163441039-3c2b52d2-a0d1-41ee-a6e3-d7cc5ecd63f6.png)
+
+
+
